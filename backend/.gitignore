@@ -1,0 +1,76 @@
+# Flask App .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.env
+.env.local
+.env.development
+.env.production
+
+# Flask
+instance/
+.webassets-cache
+.flaskenv
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Testing
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+__pytest__/
+
+# Jupyter
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
